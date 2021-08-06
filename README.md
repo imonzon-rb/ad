@@ -4,6 +4,10 @@
 
 Your task is to develop an algorithm for sorting poker hands according to their strength.
 
+## Discovery
+
+https://miro.com/app/board/o9J_l39rrQ4=/
+
 ### Poker Games
 
 You should support one to three poker game types (more is better):
