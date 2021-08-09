@@ -1,6 +1,5 @@
 package com.evolution.bootcamp.assignment.poker
 
-import com.evolution.bootcamp.assignment.poker.Solver.process
 import junit.framework.TestCase
 import org.junit.Assert._
 

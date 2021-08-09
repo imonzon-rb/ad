@@ -1,3 +1,5 @@
+import Dependencies.scalaTest
+
 name := "Evolution Poker Hand Strength Evaluator"
 
 version := "1.0"
@@ -5,5 +7,10 @@ version := "1.0"
 scalaVersion := "2.13.6"
 
 libraryDependencies ++= Seq(
-  "com.github.sbt" % "junit-interface" % "0.13.2" % Test
+  "com.github.sbt" % "junit-interface" % "0.13.2" % Test, //intended to be deprecated
+  scalaTest % Test
+)
+
+scalacOptions ++= Seq(
+  "-Xfatal-warnings"
 )
